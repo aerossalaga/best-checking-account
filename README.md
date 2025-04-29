@@ -12,7 +12,11 @@ This project is a static website built with HTML, SCSS, and JavaScript. It featu
 - Related articles section
 - Sidebar with trending posts
 
-## Installation
+## Quick Start
+
+You can simply open the `index.html` file in your browser to view the website. The compiled CSS is included in the repository.
+
+## Installation (for development)
 
 1. Clone the repository:
 ```bash
@@ -41,7 +45,7 @@ This command:
 
 ```
 best-checking-account/
-├── css/                  # Generated CSS files (not tracked in git)
+├── css/                  # CSS files (including pre-compiled main.css)
 ├── images/               # Image assets
 ├── js/                   # JavaScript files
 │   └── main.js           # Main JavaScript functionality
