@@ -1,0 +1,24 @@
+{
+  "name": "best-checking-account",
+  "version": "1.0.0",
+  "description": "HTML project with SASS and live-server",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm-run-all --parallel sass serve",
+    "serve": "live-server",
+    "sass": "sass --watch scss/main.scss:css/main.css"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "sass",
+    "javascript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.63.6"
+  }
+} 
